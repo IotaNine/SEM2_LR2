@@ -17,7 +17,7 @@ double FamilyFromRegion::APCI()
 	}
 	else
 	{
-		return Family::APCI() + payment;
+		return Family::APCI() + (payment / n);
 	}
 }
 
